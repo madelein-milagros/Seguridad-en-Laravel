@@ -49,6 +49,42 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[byte5](https://byte5.de)**
 - **[OP.GG](https://op.gg)**
 
+
+# Proyecto Laravel - semana15
+
+Este proyecto es una aplicación CRUD de productos con validación, sanitización de datos y seguridad básica en Laravel. Usa una base de datos MySQL llamada `productos_db`.
+
+## Funcionalidades
+
+- Crear, listar, editar y eliminar productos
+- Filtro por categoría
+- Interfaz con Bootstrap y estilo pastel 🎨
+
+## Instalación
+
+1. Clona el repositorio  
+   `git clone https://github.com/usuario/semana15.git`
+
+2. Instala dependencias  
+   `composer install`
+
+3. Copia el archivo de entorno  
+   `cp .env.example .env`
+
+4. Configura la conexión a tu base de datos `.env`
+
+5. Genera la clave de aplicación  
+   `php artisan key:generate`
+
+6. Inicia el servidor  
+   `php artisan serve`
+
+## Base de datos
+
+Nombre: `productos_db`  
+Incluye tablas: `categorias`, `productos`
+
+---
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
